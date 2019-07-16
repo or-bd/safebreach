@@ -3,5 +3,5 @@
 ### Installation:
 
 ```
-& git clone https://github.com/or-bd/express_react_skeleton.git
+& git clone https://github.com/or-bd/safebreach.git
 ```
