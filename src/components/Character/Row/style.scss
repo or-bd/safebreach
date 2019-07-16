@@ -1,0 +1,14 @@
+.character-row {
+  padding: 20px 10px;
+  background: linear-gradient(to bottom, gray 0%, black 145%);
+  color: whitesmoke;
+  margin: 7px 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  span {
+    cursor: pointer;
+  }
+}

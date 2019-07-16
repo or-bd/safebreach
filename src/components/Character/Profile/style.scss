@@ -1,0 +1,14 @@
+#character-profile-data {
+  padding: 20px;
+  line-height: 20px;
+
+  .row-data {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

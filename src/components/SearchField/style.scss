@@ -1,0 +1,12 @@
+#search-box {
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid gray;
+
+  input {
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 1.1em;
+  }
+}

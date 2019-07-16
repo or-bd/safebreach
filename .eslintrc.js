@@ -18,5 +18,10 @@ module.exports = {
     "ecmaFeatures": {
       "jsx": true,
     }
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
   }
 };

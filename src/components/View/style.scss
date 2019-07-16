@@ -1,0 +1,10 @@
+#page-view-hoc {
+  width: 900px;
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+  background-color: #e8e8e8;
+  overflow-x: hidden;
+}

@@ -1,7 +1,7 @@
 const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { DEV_SERVER_PORT, SERVER_PORT } = require('./config.json');
+const { DEV_SERVER_PORT } = require('./config.json');
 
 const BUILD_DIR = resolve(__dirname, 'public');
 const APP_DIR = resolve(__dirname, 'src');
@@ -80,9 +80,7 @@ module.exports = {
     contentBase: APP_DIR,
     compress: true,
     port: DEV_SERVER_PORT,
-    proxy: {
-      '/api': `http://localhost:${SERVER_PORT}`,
-    },
+    historyApiFallback: true,
   },
   mode: 'development',
 };
