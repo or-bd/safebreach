@@ -5,7 +5,7 @@ Live demo: https://safebreach.sudozone.com/
 ### Clone:
 
 ```
-& git clone https://github.com/or-bd/safebreach.git
+& git clone https://github.com/or-bd/starwars_ui.git
 ```
 
 ## Install:
