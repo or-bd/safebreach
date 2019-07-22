@@ -1,4 +1,4 @@
-# Safebreach - home task
+# Simple Starwars UI
 
 Live demo: https://safebreach.sudozone.com/
 
